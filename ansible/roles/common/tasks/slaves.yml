@@ -1,0 +1,10 @@
+---  
+  - name: Include common tasks.
+    include: common-1.yml
+
+  - name: Include users tasks
+    include: users.yml
+
+  - name: Include more common tasks.
+    include: common-2.yml
+
